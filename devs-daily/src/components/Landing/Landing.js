@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
 import './Landing.css'
 
-const Landing = (props) => {
+export const Landing = (props) => {
 
   const articleCards = props.articles.map(article => {
     return (
@@ -28,4 +28,3 @@ const Landing = (props) => {
   )
 }
 
-export default Landing
