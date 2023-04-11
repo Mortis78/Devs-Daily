@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const ErrorPage = () => {
+export const ErrorPage = () => {
     return (
         <div className="errorPage">
             {/* <div className="oops"></div> */}
@@ -14,4 +14,3 @@ const ErrorPage = () => {
         </div>
     )
 }
-export default ErrorPage
