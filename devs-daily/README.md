@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# DEVS DAILY 
+
+## Table of Contents
+  - [Setup](#setup)
+  - [Technologies](#technologies)
+  - [Project Spec](#project-spec)
+  - [Abstract](#abstract)
+  - [Learning Goals](#learning-goals)
+  - [Preview](#preview)
+  - [Wins + Challenges](#wins-and-challenges)
+  - [Authors](#Authors)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Installation Instructions <a name="installationInstructions"></a>
 
-In the project directory, you can run:
+1. Clone down [this repository](https://github.com/Mortis78/Devs-Daily/tree/Add/component/devs-daily)
+2. Run `npm install`
+3. Run `npm start` in your terminal
+4. Go to http://localhost:3000/ and you should see the website
+5. Enter `control + c` in your terminal to stop the server at any time.
 
-### `npm start`
+## Technologies
+  - Javascript
+  - CSS / HTML
+  - VSCode
+  - Git Version Control / GitHub
+  - React 
+  - Router
+  - Google Chrome or Web Browser of User's Choice
+  - Mac OS Terminal/Command Line
+  - Cypress
+ 
+  
+## Project Spec
+[click here](https://frontend.turing.edu/projects/module-3/stretch.html)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Abstract 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+this is an app that lets a user skim through the top stories for NewYork Times, when a story is selected the user will see additional information as well as a link to the full article.
 
-### `npm test`
+## Learning Goals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+- Gain competency with React fundamentals
+- Learn how to test React components & asynchronous JS
+- Practice refactoring
+- Create a multi-page UX using Router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Visual of Functionality:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Scroll through the main page to view all articles in the database. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2023-04-12 at 4 19 16 PM](https://user-images.githubusercontent.com/113194002/231891868-ff80314d-d888-4cc8-bde5-94d38e597e62.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1359" alt="Screenshot 2023-04-13 at 3 55 26 PM" src="https://user-images.githubusercontent.com/113194002/231891598-d99849e1-507b-46c8-a693-3aa3f878d991.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Code Architecture <a name="codeArchitecture"></a>
 
-## Learn More
+The React architecture is based on one class component (App.js) and two functional components (Landing.js, Details.js). The class component hold state and is in charge of the network requests, while the functional components render information passed down as props.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Wins & Challenges
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Successfully created app using React framework
+- Successfully implemented Router
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Authors
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+    
+ 
+   <tr>
+      <td> John Ammon <a href="https://github.com/Mortis78">GH</td>
+    </tr>
+ <td><img src="https://avatars.githubusercontent.com/u/113194002?v=4" alt="John Ammon"
+ width="150" height="auto" /></td>
+</table>
+  
